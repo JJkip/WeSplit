@@ -18,7 +18,7 @@ struct ContentView: View {
                 Text("Hello, world!")
                 Form {
                     TextField("Enter Your Name", text: $name)
-                    Text("Hello, world")
+                    Text("Your name is: \(name)")
                 }
                 Button ("Tap Count: \(tapCount)"){
                     self.tapCount += 1
